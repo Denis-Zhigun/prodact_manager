@@ -5,12 +5,10 @@ public class Book extends Product {
 
     public Book(int id, String name, int price) {
         super(id, name, price);
-
     }
 
     public String getAuthor() {
         return author;
-
     }
 
     public void setAuthor(String author) {
