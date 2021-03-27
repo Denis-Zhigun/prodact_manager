@@ -143,7 +143,6 @@ class ProductManagerTest {
                 new Book(7, "Война и мир", 780, "Tolstoi")};
 
         Product[] actual = manager.searchBy("Tolstoi");
-
         assertArrayEquals(expected, actual);
 
     }
